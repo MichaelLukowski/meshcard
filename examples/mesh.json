@@ -1,0 +1,29 @@
+{
+    "card_type": "mesh",
+    "mesh_data_governance": "data can leave boundaries",
+    "mesh_data_type": "imaging",
+    "description": "description of data mesh",
+    "meshcard_version": "1.0.0",
+    "mesh_metadata_endpoint": "/mds/metadata",
+    "auth_valid_apis": [
+        "passports",
+        "gen3_fence"
+    ],
+    "data_valid_apis": [
+        "DRS",
+        "gen3_indexd"
+    ],
+    "mesh_metadata_valid_apis": [
+        "data_connect",
+        "gen3_mds"
+    ],
+    "node_metadata_valid_apis":[
+    	"data_connect",
+    	"gen3_"	
+    ],
+    "nodes": [
+        "gen3.biodatacatalyst.nhlbi.nih.gov/nodecard",
+        "data.midrc.org/nodecard"
+    ],
+    "usage_statistics_endpoint": "/usage"
+}
